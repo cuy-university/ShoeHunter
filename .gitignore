@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =============================
+# Custom ignores for my project
+# =============================
+
+# Folder hasil scraping
+data/*.csv
+data/*.json
+data/*.xlsx
+
+# Folder export / report hasil scraping
+output/
+exports/
+
+# Folder dataset sementara
+tmp/
+temp/
+
+# File pribadi
+config.ini
